@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Chaiii Chahye('~')</h1>
+    </div>
+    <img id="images" src="chaii1.jpg" alt="" style="height: 200px;width: 200px;">
+    <button class="btn" onclick="mychaii()">Click for Magic</button>
+
+
+    <script>
+        var a=0
+        let img= document.getElementById('images');
+        
+        function mychaii(){
+            if(a==0)
+        {
+           img.src='chaii2.jpg';
+           a++
+        }
+        else
+        {
+           img.src='chaii1.jpg';
+           a=0
+        }
+
+        }
+    </script>
+</body>
+</html>
